@@ -254,7 +254,7 @@ jobs:
       PROD_DB_USER: ${{ secrets.PROD_DB_USER }}
       PROD_DB_PASSWORD: ${{ secrets.PROD_DB_PASSWORD }}
       PROD_DB_NAME: ${{ secrets.PROD_DB_NAME }}
-      KUBECONFIG_BASE64: ${{ secrets.KUBECONFIG_BASE64 }}
+#      KUBECONFIG_BASE64: ${{ secrets.KUBECONFIG_BASE64 }}
 
   notify-success:
     name: "Stage 6 - Success Notification"

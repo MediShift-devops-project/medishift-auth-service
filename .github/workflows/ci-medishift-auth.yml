@@ -141,7 +141,7 @@ jobs:
             revanth654/medishift-auth:${{ needs.docker.outputs.image_full_tag }}
             revanth654/medishift-auth:latest
 
-            ArgoCD will auto-sync within 3 minutes.
+            ArgoCD will auto-sync within 3 minutes
 
             ══════════════════════════════════════════
             -- MediShift DevOps Pipeline
